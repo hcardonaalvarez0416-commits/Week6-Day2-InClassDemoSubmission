@@ -18,7 +18,7 @@
     
     <body>
       <div class="container">
-         <h2>Navbar With Dropdown</h2>
+         <h2>Navbar With Dropdown - Hector</h2>
          <nav class = "navbar navbar-expand-sm bg-secondary navbar-dark">
             <a class = "navbar-brand" href = "#">Navbar</a>
 
@@ -36,14 +36,31 @@
                   <li class = "nav-item active">
                      <a class = "nav-link" href = "#">Home</a>
                   </li>
+                  <li class = "nav-item dropdown">
+                     <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdownMenuLink" role = "button" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
+                        Library
+                     </a>
+                     <div class = "dropdown-menu" aria-labelledby = "navbarDropdown">
+                        <a class = "dropdown-item" href = "#">HTML-5</a>
+                        <a class = "dropdown-item" href = "#">CSS-3</a>
+                        <a class = "dropdown-item" href = "#">Bootstrap-4</a>
+                        <div class = "dropdown-divider"></div>
+               
+                     </div>
+                  </li>
                   <li class = "nav-item">
                      <a class = "nav-link" href = "#">About Us</a>
                   </li>
-                  <li class = "nav-item">
-                     <a class = "nav-link" href = "#">Contact</a>
-                  </li>
                   <li class = "nav-item dropdown">
-                     <a class = "nav-link" href = "#">Library</a>
+                     <a class = "nav-link dropdown-toggle" href = "#" id = "navbarDropdownContactLink" role = "button" data-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false">
+                        Contact
+                     </a>
+                     <div class = "dropdown-menu" aria-labelledby = "navbarDropdownContactLink">
+                        <a class = "dropdown-item" href = "#">Send Message</a>
+                        <a class = "dropdown-item" href = "#">Call Us</a>
+                        <div class = "dropdown-divider"></div>
+                        <a class = "dropdown-item" href = "#">Find Us</a>
+                     </div>
                   </li>
                </ul>
                
